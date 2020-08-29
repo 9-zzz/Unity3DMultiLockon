@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 6830730207550924933}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.32, y: 1.203, z: 2.378}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -112,6 +112,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   launched: 0
+  targetScale: {x: 0.1, y: 0.1, z: 0.1}
+  hitParticles: {fileID: 3866530287878826401, guid: 431eafc90a6725c42b53d2a085f4ede5, type: 3}
 --- !u!54 &2008820658720198877
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -136,7 +138,7 @@ TrailRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6830730207550924933}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1

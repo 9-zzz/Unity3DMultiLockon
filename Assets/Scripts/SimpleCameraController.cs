@@ -134,7 +134,7 @@ namespace UnityTemplateProjects
             //if (Input.GetMouseButtonDown(1))
             //{
                 Cursor.lockState = CursorLockMode.Locked;
-                Cursor.visible = true;
+                //Cursor.visible = true;
             //}
 
             /* Unlock and show cursor when right mouse button released
